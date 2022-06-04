@@ -1,10 +1,36 @@
+/*
+    https://colorhunt.co/palette/222831393e4600adb5eeeeee
+*/
+
 body {
     margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    margin: 0 auto 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    margin: 0 auto 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100%;
 }
 
 .top_container {
     background-color: #EEEEEE;
-
+    padding-top: 10%;
+    position: relative;
 }
 
 .mid_container {
@@ -19,10 +45,21 @@ body {
     width: 200px;
 }
 
-h1 {
-    margin-top: 0;
+.top_cloud {
+    width: 10%;
+    position: absolute;
+    left: 30%;
+    top: 32%;
 }
 
-img {
-    width: 100%;
+.bottom_cloud {
+    width: 10%;
+    position: absolute;
+    left: 60%;
+    top: 8%;
+}
+
+.hill {
+    position: relative;
+    bottom: 100%;
 }

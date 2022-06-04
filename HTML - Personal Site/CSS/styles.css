@@ -6,6 +6,7 @@
 
 body {
     background-color: #F9F7F7;
+    font-family: 'Roboto', sans-serif;
   }
 
 hr {
@@ -22,12 +23,18 @@ img {
   }
 
 h1 {
-    font: 2em "Roboto";
+    margin-top: 0px;
+    font-family: 'Sacramento', cursive;
     color: #112D4E;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3F72AF;
+}
+
 h3 {
-    font: 1.2em "Roboto";
+    font-family: 'Montserrat', sans-serif;
     color: #3F72AF;
 }
 
