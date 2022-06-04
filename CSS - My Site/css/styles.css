@@ -1,5 +1,5 @@
 /*
-    https://colorhunt.co/palette/222831393e4600adb5eeeeee
+    https://colorhunt.co/palette/f6fbf4f5df995fd0684b8673
 */
 
 body {
@@ -9,18 +9,21 @@ body {
 }
 
 h1 {
-    margin: 0 auto 0 auto;
+    margin: 0 auto 20px auto;
     font-family: 'Sacramento', cursive;
+    font-size: 5rem;
 }
 
 h2 {
     margin: 0 auto 0 auto;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
 }
 
 h3 {
     margin: 0 auto 0 auto;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
 }
 
 img {
@@ -28,21 +31,17 @@ img {
 }
 
 .top_container {
-    background-color: #EEEEEE;
+    background-color: #F6FBF4;
     padding-top: 10%;
     position: relative;
 }
 
 .mid_container {
-    background-color: #393E46;
-    height: 200px;
-    width: 200px;
+
 }
 
 .down_container {
-    background-color: #222831;
-    height: 200px;
-    width: 200px;
+
 }
 
 .top_cloud {
@@ -60,6 +59,16 @@ img {
 }
 
 .hill {
+    margin: 40px 0 40px 0 ;
     position: relative;
     bottom: 100%;
+}
+
+.skills-img {
+    width: 8%;
+}
+
+.my-img {
+    width: 10%;
+    border-radius: 50%;
 }
