@@ -2,6 +2,17 @@
     https://colorhunt.co/palette/f6fbf4f5df995fd0684b8673
 */
 
+a {
+    color: #243D25;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F6FBF4;
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -21,7 +32,7 @@ h2 {
     margin: 0 auto 0 auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #4B8673;
+    color: #243D25;
     font-weight: normal;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -63,6 +74,7 @@ p {
 
 .down-container {
     background-color: #4E944F;
+    padding: 50px 0 20px 0;
 }
 
 .top_cloud {
@@ -120,7 +132,18 @@ p {
 }
 
 .contact-me {
-    
+    padding-bottom: 30px;
+}
+
+.contact-msg {
+    width: 40%;
+    margin: 40px auto;
+}
+
+.copyright {
+    color: #F6FBF4;
+    font-size: 0.75rem;
+    padding: 10px 0 10px 0;
 }
 
 .btn {
@@ -133,7 +156,7 @@ p {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 15px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 25px;
     padding: 10px 20px 10px 20px;
