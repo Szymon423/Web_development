@@ -2,17 +2,19 @@
     https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e
 */
 
+/************** TAG SELECTOR **************/
+
 body {
     background-color: #F9F7F7;
   }
 
 hr {
     height: 0px;
-    width: 8%;
     border-color: #3F72AF;
     border-style: none;
     border-top-style: dotted;
     border-width: 7px;
+    width: 8%;
   }
 
 img {
@@ -32,4 +34,16 @@ h3 {
 p {
     font: 0.8em "Roboto";
     color: #112D4E;
+}
+
+/************** CLASS SELECTOR **************/
+.exp {
+    color: #112D4E;
+}
+
+/************** ID SELECTOR**************/
+
+
+#edu {
+    color: red;
 }
