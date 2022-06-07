@@ -46,7 +46,7 @@
 
         <!-- Lista zagnieżdżona w navbarze -->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto navbar-light">
                 <li class="nav-item">
                     <a class="nav-link" href="">Contact</a>
                 </li>
@@ -61,47 +61,67 @@
       </nav>
       <!--navbar-->
 
-      <div class="row tabele">
+      <hr>
 
+      <!-- podział ekranu na dwie kolumny -->
+      <div class="row tabele">
+        
+        <!-- Kolumna z tekstem i przyciskami -->
         <div class="col-lg-6">
           <h1>Instytut Automatyki Systemów Energetycznych</h1>
-          <button type="button" class="btn btn-primary btn-lg">
+          
+          <!-- Przycisk Nasza oferta -->
+          <button type="button" class="btn btn-primary btn-lg buttons-my">
             <i class="fa-solid fa-tag"></i> Nasza oferta
           </button>
-
-          <button type="button" class="btn btn-outline-primary btn-lg">
+          
+          <!-- Przycisk Wyślij zapytanie ofertowe -->
+          <button type="button" class="btn btn-outline-primary btn-lg buttons-my">
             <i class="fa-solid fa-bag-shopping"></i> Wyślij zapytanie
           </button>
         </div>
-
-        <div class="col-lg-6">
-          <img src="images/master.png" alt="iphone-mockup">
+        
+        <!-- Kolumna ze zdjęciem mastera -->
+        <div class="col-lg-6 master-img-div">
+          <img class="master-img" src="images/master.png" alt="master-mockup">
         </div>
 
       </div>
 
     </div>
 
-
-    
-    
-
   </section>
 
 
+  
+  
   <!-- Features -->
 
   <section id="features">
-
-    <h3>Kim jesteśmy?.</h3>
-    <p>Nikim...</p>
-
-    <h3>Wykwalifikowana kadra</h3>
-    <p>Studenci i Mariusz Lipińki XDD</p>
-
-    <h3>Weź se odpuść to IsrASE</h3>
-    <p>Serio Ci mówię, kupa gówna i mchu.</p>
-
+    <div class="row">
+      <div class="col-lg-4">
+        <p>
+          <i class="fa-thin fa-buildings"></i> dupa
+        </p>
+        <h3>Kim jesteśmy?.</h3>
+        <p>Zespołem młodych oraz ambitnych automatyków</p>
+      </div>
+  
+      <div class="col-lg-4">
+        <p>
+          <i class="fa-thin fa-people-group"></i> dupa
+        </p>
+        <h3>Wykwalifikowana kadra</h3>
+        <p>Studenci i Mariusz Lipińki XDD</p>
+      </div>
+  
+      <div class="col-lg-4">
+        <i class="fa-thin fa-face-disappointed"></i> dupa
+      <h3>Weź se odpuść to IsrASE</h3>
+      <p>Serio Ci mówię, kupa gówna i mchu.</p>
+      </div>
+  
+    </div>
   </section>
 
 
@@ -111,7 +131,7 @@
 
     <h2>Nasz przeciętny pracownik przychodzacy do pracy.</h2>
     <img src="images/happy-male.jpg" alt="IASE-worker-profile">
-    <em>Pebbles, New York</em>
+    <em>Mariusz Lipiński</em>
 
     <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
     <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
@@ -135,6 +155,9 @@
     <h2>SYstemy automatyki dostrojone do Twoich potrzeb.</h2>
     <p>Oferujemy szeroką gamę urządzeń sterujących automatyki przemysłowej jaki i systemy DCS.</p>
 
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-thin fa-star"></i>
+    <i class="fa-thin fa-star"></i>
 
     <h3>Student</h3>
     <h2>Umowa zlecenie</h2>
@@ -143,6 +166,9 @@
     <p>niepłatne delegacje</p>
     <button type="button">złóż CV</button>
 
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-thin fa-star"></i>
 
     <h3>Przeciętny pracownik</h3>
     <h2>Umowa o pracę</h2>
@@ -151,7 +177,9 @@
     <p>płatne delegacje</p>
     <button type="button">złóż CV</button>
 
-
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
     <h3>I tak tyle nie dostaniesz</h3>
     <h2>B2B</h2>
     <p>100zł/h brutto</p>
