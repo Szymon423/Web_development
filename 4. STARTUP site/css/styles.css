@@ -15,10 +15,28 @@ body {
     padding-top: 5%;
 }
 
-/* do poprawy */
-.features {
-    margin-left: 20%;
-    margin-right: 20%;
+.feature-box {
+    text-align: center;
+    /* padding: 0% 5%; */
+}
+
+#testimonials {
+    margin: 7% 15%;
+    text-align: center;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #336cf6;
+}
+
+.icon-features {
+    color: #ffffff;
+    margin-top: 2%;
+}
+
+.icon-features:hover {
+    color: #c3d5ff;
 }
 
 .master-img-div {
@@ -47,6 +65,16 @@ h1 {
     font-family: 'Montserrat';
     font-size: 3rem;
     line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
 }
 
 hr {
