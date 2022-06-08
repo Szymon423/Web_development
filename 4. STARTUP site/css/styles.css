@@ -71,13 +71,33 @@ h3 {
     font-family: 'Montserrat';
     font-weight: 500;
     line-height: 1.5;
+    color: white;
 }
 
 p {
-    color: #8f8f8f;
+    font-weight: 100;
 }
 
 hr {
     margin-bottom: 20px;
     margin-top: 50px;
+}
+
+.stary {
+    width: 55%;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.sponsor1 {
+    width: 7%;
+}
+
+.sponsor2 {
+    width: 15%;
 }
