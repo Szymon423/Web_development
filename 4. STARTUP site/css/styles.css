@@ -21,7 +21,7 @@ body {
 }
 
 #testimonials {
-    margin: 7% 15%;
+    padding: 7% 15%;
     text-align: center;
 }
 
@@ -100,4 +100,8 @@ hr {
 
 .sponsor2 {
     width: 15%;
+}
+
+.next-prev {
+    color: #336cf6;
 }
