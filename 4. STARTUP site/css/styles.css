@@ -8,7 +8,8 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 .tabele {
@@ -21,12 +22,14 @@ body {
 }
 
 #testimonials {
-    padding: 7% 15% 3% 15%;
+    padding-top: 7%;
+    padding-bottom: 3%;
     text-align: center;
 }
 
 #features {
-    padding: 7% 15%;
+    padding-top: 7%;
+    padding-bottom: 7%;
     background-color: #336cf6;
 }
 
@@ -114,6 +117,17 @@ hr {
     background-color: #336cf6;
 }
 
-.umowy-row {
-    padding: 3% 15%;;
+
+.left-right-padding {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+@media (max-width: 1028px) {
+    
+    .left-right-padding {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
 }
