@@ -21,7 +21,7 @@ body {
 }
 
 #testimonials {
-    padding: 7% 15%;
+    padding: 7% 15% 3% 15%;
     text-align: center;
 }
 
@@ -115,5 +115,5 @@ hr {
 }
 
 .umowy-row {
-    padding: 7% 15%;;
+    padding: 3% 15%;;
 }
