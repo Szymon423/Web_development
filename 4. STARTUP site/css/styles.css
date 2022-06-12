@@ -2,9 +2,38 @@
     background-color: rgb(255, 255, 255);
 }
 
+#testimonials {
+    padding-top: 7%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    text-align: center;
+}
+
+#features {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: #336cf6;
+}
+
+#footer {
+    background-color: #336cf6;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
 body {
     font-family: 'Montserrat';
     font-weight: bold;
+
 }
 
 .container-fluid {
@@ -18,19 +47,6 @@ body {
 
 .feature-box {
     text-align: center;
-    /* padding: 0% 5%; */
-}
-
-#testimonials {
-    padding-top: 7%;
-    padding-bottom: 3%;
-    text-align: center;
-}
-
-#features {
-    padding-top: 7%;
-    padding-bottom: 7%;
-    background-color: #336cf6;
 }
 
 .icon-features {
@@ -92,11 +108,6 @@ hr {
     margin: 50px;
 }
 
-#press {
-    text-align: center;
-    padding-bottom: 3%;
-}
-
 .sponsor1 {
     width: 7%;
 }
@@ -109,23 +120,12 @@ hr {
     color: #336cf6;
 }
 
-#pricing {
-    text-align: center;
-}
-
 .clas-header-color {
     background-color: #336cf6;
 }
 
 .low-padding {
     padding-bottom: 3%;
-}
-
-#footer {
-    background-color: #336cf6;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 2%;
 }
 
 .footer-text {
@@ -146,12 +146,9 @@ hr {
     padding-right: 15%;
 }
 
-
 @media (max-width: 1028px) {
-    
     .left-right-padding {
         padding-left: 5%;
         padding-right: 5%;
     }
-
 }
