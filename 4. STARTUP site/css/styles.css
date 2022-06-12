@@ -105,3 +105,11 @@ hr {
 .next-prev {
     color: #336cf6;
 }
+
+#pricing {
+    text-align: center;
+}
+
+.clas-header-color {
+    background-color: #336cf6;
+}
