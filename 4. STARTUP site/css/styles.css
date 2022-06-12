@@ -117,11 +117,35 @@ hr {
     background-color: #336cf6;
 }
 
+.low-padding {
+    padding-bottom: 3%;
+}
+
+#footer {
+    background-color: #336cf6;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.footer-text {
+    color: #ffffff;
+}
+
+.footer-link {
+    color: #ffffff;
+    padding: 2%;
+}
+
+.footer-copyright {
+    color: rgb(113, 163, 255);
+}
 
 .left-right-padding {
     padding-left: 15%;
     padding-right: 15%;
 }
+
 
 @media (max-width: 1028px) {
     
