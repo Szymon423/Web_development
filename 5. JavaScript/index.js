@@ -1,1 +1,2 @@
-alert("test");
+var dupa = "dupa";
+alert(dupa);
