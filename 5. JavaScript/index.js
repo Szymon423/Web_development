@@ -11,3 +11,6 @@ var text = "dupa cycki jebać cweli i pedałów"
 
 var dupa = text.slice(0, 4);
 alert(dupa);
+
+
+var duza_dupa = text.toUpperCase();
