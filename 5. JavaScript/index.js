@@ -7,7 +7,7 @@ alert("hello " + "world " + dupsko);
 var ile = dupsko.length;
 
 
-var text = "dupa cycki jebać cweli i pedałów"
+var text = "przykładowy tekst test"
 
 var dupa = text.slice(0, 4);
 alert(dupa);
