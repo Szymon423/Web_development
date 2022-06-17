@@ -14,3 +14,12 @@ alert(dupa);
 
 
 var duza_dupa = text.toUpperCase();
+
+
+var imie = prompt("jak się nazywasz mordzia?");
+
+var first = imie.slice(0, 1);
+
+var last = imie.slice(1, imie.length);
+
+alert("siema gżdylu, " + first.toUpperCase() + last.toLowerCase());
