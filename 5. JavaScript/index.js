@@ -7,7 +7,7 @@ alert("hello " + "world " + dupsko);
 var ile = dupsko.length;
 
 
-var text = "przykładowy tekst test"
+var text = "przykładowy tekst tsasasasaest"
 
 var dupa = text.slice(0, 4);
 alert(dupa);
