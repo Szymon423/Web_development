@@ -9,8 +9,8 @@ for (var i = 0; i < items.length; i++) {
 }
 
 // dodanie listenera do klawiatury
-document.addEventListener("keydown", function (e) {
-    passMe = e.key;
+document.addEventListener("keydown", function (event) {
+    var passMe = event.key;
     play(passMe);
 });
 
