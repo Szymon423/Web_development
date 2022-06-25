@@ -5,6 +5,7 @@ for (var i = 0; i < items.length; i++) {
     items[i].addEventListener("click", function () {
         var passMe = this.innerHTML;
         play(passMe)
+        buttonAnimation(passMe);
     });
 }
 
@@ -12,6 +13,7 @@ for (var i = 0; i < items.length; i++) {
 document.addEventListener("keydown", function (event) {
     var passMe = event.key;
     play(passMe);
+    buttonAnimation(passMe);
 });
 
 // obsługa dźwięku
@@ -49,6 +51,18 @@ function play (klucz) {
             console.log("Something went wrong...");
             break;
     };
+}
+
+// animacja
+function buttonAnimation (key) {
+    var key_ = "." + key;
+    var activeButton = document.querySelector(key_);
+    activeButton.classList.add("pressed");
+
+    setTimeout(function() {
+        activeButton.classList.remove("pressed");
+    }, 100);
+
 }
 
 
