@@ -57,9 +57,15 @@ function checkAnswer() {
     var resoult = true;
     console.log("correct");
   } else {
+    // GAME OVEEEEEEEEEEER
     var resoult = false;
     console.log("wrong");
     $("h1").text("GAME OVER!");
+
+    $("body").addClass("game-over");
+    setTimeout(function() {
+      $("body").removeClass("game-over");
+    }, 200);
 
   }
 
@@ -112,6 +118,7 @@ function playSound(sound) {
    sound.play();
 }
 
+// sprawdzenie czy tablice są takie same
 function equals(a, b) {
   if (a.length !== b.length) {
     console.log("wrong length");
