@@ -1,1 +1,1 @@
-console.log("dupa");
+const fs = require("fs");
